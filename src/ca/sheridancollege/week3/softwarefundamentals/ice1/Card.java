@@ -49,13 +49,6 @@ public class Card {
     }
    // insert two methods to generate random value and suit here
    
-    public int genRandnum(){
-        return (int) (Math.floor(Math.random() * 13) + 1);
-    }
-    
-    public int genRandsuit(){
-        return (int) (Math.floor(Math.random() * 4));
-       
-    }
+   
     
 }
