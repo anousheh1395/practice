@@ -5,6 +5,8 @@
  */
 package ca.sheridancollege.week3.softwarefundamentals.ice1;
 
+import java.util.Random;
+
 /**
  * A class that models playing card Objects. Cards have 
  * a value (note that Ace = 1, Jack -11, Queen =12, King = 13)
@@ -50,6 +52,15 @@ public class Card {
     }
    // insert two methods to generate random value and suit here
    
+      public int randomValue()
+   {int num =(int)(Math.random()*13+1);
+   return num;}
    
+
+public String getSuitRandom(){
+Random card = new Random();
+int x = card.nextInt(4);
+return SUITS[x];
+}
     
 }
