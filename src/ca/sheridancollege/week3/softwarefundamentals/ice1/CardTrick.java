@@ -15,24 +15,31 @@ public class CardTrick {
     
     public static void main(String[] args)
     {
+        Scanner scan=new Scanner(System.in);
         Card[] magicHand = new Card[7];
-        
+    
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
-            c.setValue(call random method);
-            c.setSuit(Card.SUITS[call random method]);    
-            // Store each card object into the magicHand array
-            
-            // Print each magic hand to the screen.
-            
+//            c.setValue(c. randomValue());
+//            c.setSuit(c.SUITS[c.randomSuit()]);
+
         }
         
-        //insert code to ask the user for Card value and suit, create their card
-        // and search magicHand here to find matching card is in array or not
-        //Then report the result here
-       
         
-    }
-    
+        
+//        System.out.println("Please enter a v and s:");
+//        String s=scan.next();
+//       // System.out.println("Please enter a value:");
+//       //int v=scan.nextInt();
+//        Card c = new Card();
+//        
+//    if(s.equals(c.getSuit())){
+//        System.out.println("Not Approved!");
+//   }
+//   else
+//    {
+//         System.out.println("Approved!");
+//     }
 }
+    }

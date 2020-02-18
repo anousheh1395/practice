@@ -19,8 +19,8 @@ import java.util.Random;
  */
 public class Card {
 
-   private String suit; //clubs, spades, diamonds, hearts
-   private int value;//1-13
+   String suit; //clubs, spades, diamonds, hearts
+   int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
     /**
@@ -52,15 +52,20 @@ public class Card {
     }
    // insert two methods to generate random value and suit here
    
-      public int randomValue()
-   {int num =(int)(Math.random()*13+1);
-   return num;}
-   
-
-public String getSuitRandom(){
-Random card = new Random();
-int x = card.nextInt(4);
-return SUITS[x];
-}
-    
+//      public int randomValue()
+//   {
+//       int num =(int)(Math.random()*13+1);
+//       System.out.print(num);
+//   return num;
+//   }
+//   
+//
+//public int randomSuit()
+//{
+//int randS=(int)(Math.random()*SUITS.length);
+//String randomEl=SUITS[randS];
+//System.out.println(randomEl);
+//return randS;
+//}
+  
 }
