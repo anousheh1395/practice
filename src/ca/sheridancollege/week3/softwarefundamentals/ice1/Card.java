@@ -52,20 +52,20 @@ public class Card {
     }
    // insert two methods to generate random value and suit here
    
-//      public int randomValue()
-//   {
-//       int num =(int)(Math.random()*13+1);
-//       System.out.print(num);
-//   return num;
-//   }
-//   
-//
-//public int randomSuit()
-//{
-//int randS=(int)(Math.random()*SUITS.length);
-//String randomEl=SUITS[randS];
-//System.out.println(randomEl);
-//return randS;
-//}
+      public int randomValue()
+   {
+       int num =(int)(Math.random()*13+1);
+       System.out.print(num);
+   return num;
+   }
+   
+
+public int randomSuit()
+{
+int randS=(int)(Math.random()*SUITS.length);
+String randomEl=SUITS[randS];
+System.out.println(randomEl);
+return randS;
+}
   
 }

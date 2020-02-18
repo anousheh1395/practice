@@ -21,25 +21,25 @@ public class CardTrick {
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
-//            c.setValue(c. randomValue());
-//            c.setSuit(c.SUITS[c.randomSuit()]);
+           c.setValue(c. randomValue());
+           c.setSuit(c.SUITS[c.randomSuit()]);
 
         }
         
         
         
-//        System.out.println("Please enter a v and s:");
-//        String s=scan.next();
-//       // System.out.println("Please enter a value:");
-//       //int v=scan.nextInt();
-//        Card c = new Card();
-//        
-//    if(s.equals(c.getSuit())){
-//        System.out.println("Not Approved!");
-//   }
-//   else
-//    {
-//         System.out.println("Approved!");
-//     }
+        System.out.println("Please enter a v and s:");
+        String s=scan.next();
+       // System.out.println("Please enter a value:");
+       //int v=scan.nextInt();
+        Card c = new Card();
+        
+    if(s.equals(c.getSuit())){
+        System.out.println("Not Approved!");
+   }
+   else
+    {
+         System.out.println("Approved!");
+     }
 }
     }
